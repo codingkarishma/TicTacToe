@@ -71,12 +71,12 @@ tiles.forEach((item)=>{
         if(xturn){
             xturn=false;
             player="X"
-            displayTurn.innerHTML=`<h2>Player X's Turn</h2>`
+            displayTurn.innerHTML=`<h2>Player O's Turn</h2>`
             item.innerText="X";
         }else{
             xturn=true;
             player="O";
-            displayTurn.innerHTML=`<h2>Player O's Turn</h2>`
+            displayTurn.innerHTML=`<h2>Player X's Turn</h2>`
             item.innerText="O";
         }
         count++;
